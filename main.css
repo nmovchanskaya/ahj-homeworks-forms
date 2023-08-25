@@ -1,0 +1,33 @@
+body {
+    margin: 30px;
+    padding: 0;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin-top: 100px;
+    background-color: darkviolet;
+    color: white;
+    font-size: 14px;
+    border: 0;
+    border-radius: 3px;
+}
+.popup {
+    position: absolute;
+    width: 250px;
+    
+    border: 1px solid #aaa9a9;
+    color: #484848;
+    z-index: 999;
+}
+.popup__title {
+    padding: 5px;
+    background-color: #ecebeb;
+}
+.popup__content {
+    padding: 5px;
+}
+
